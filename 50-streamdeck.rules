@@ -1,0 +1,4 @@
+# Allow users to interact with Streamdecks
+ACTION=="add", ATTRS{idVendor}=="0fd9", MODE="0660", GROUP="users"
+# Allow users to access uinput (required for Streamdeck)
+SUBSYSTEM=="misc", KERNEL=="uinput", MODE="0660", GROUP="users"
