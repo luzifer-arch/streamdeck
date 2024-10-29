@@ -1,6 +1,6 @@
 pkgbase = streamdeck
 	pkgdesc = Utility to control Elgato StreamDeck on Linux
-	pkgver = 1.7.1
+	pkgver = 1.7.2
 	pkgrel = 1
 	url = https://github.com/Luzifer/streamdeck
 	arch = i686
@@ -9,9 +9,9 @@ pkgbase = streamdeck
 	makedepends = go
 	depends = hidapi
 	conflicts = streamdeck-ui
-	source = streamdeck-1.7.1.tar.gz::https://github.com/Luzifer/streamdeck/archive/v1.7.1.tar.gz
+	source = streamdeck-1.7.2.tar.gz::https://github.com/Luzifer/streamdeck/archive/v1.7.2.tar.gz
 	source = 50-streamdeck.rules
-	sha512sums = 52380fbb3f1119b0fa16ee4bf8b1812a4415da50c30e6d15a6e6e8607d06dfd871eb8847f2f3bd1ff5fd86da7bc455cf0933bde31bf8640d23515468393676be
+	sha512sums = fe22fe9d272369074955c4439b801ea78614e758e5c6ec984a083e88b10d1f2b6ed9705bcce84c2f9f94d605ca26d2ef2e6eb676a9f47b1edebaa80d22d8150f
 	sha512sums = e3328d8b770a1393a71a95e7be86f88feb3014fda82dc7a4b4c0721b3a8baf84890af3bd639d3e096c31e5c23ff1f345c8cc9216114039cca32f03a360046ddc
 
 pkgname = streamdeck
